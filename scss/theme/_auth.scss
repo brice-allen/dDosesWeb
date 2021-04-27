@@ -1,0 +1,66 @@
+.auth-wrapper {
+	max-width: 560px;
+	background: white;
+	.auth-heading {
+		font-size: 1.5rem;
+	}
+	
+	.form-control {
+    @include placeholder($theme-text-color-light); 
+	}
+	
+	
+	.legal-note {
+	    font-size: 0.875rem;
+	}    
+	
+	.divider {
+	    border-bottom: 1px solid $theme-divider;
+	    position: relative;
+	}
+	
+	.or-text {
+	    position: absolute;
+	    top: -12px;
+	    padding: 0 10px;
+	    background: #fff;
+	    display: inline-block;
+	    left: 50%;
+	    margin-left: -22px;  
+	    font-weight: 500;
+
+	}
+	.extra {
+		font-size: 0.75rem;
+		a {
+			text-decoration: underline;
+			color: $theme-text-color-light;
+			&:hover {
+				color: $theme-text-color-secondary;
+			}
+		}
+	}
+	
+	.auth-heading-desc {
+		font-weight: 500;
+		font-size: 1.125rem;
+	}
+	
+	.legal-note {
+		font-size: 0.75rem;
+	}
+	
+
+
+}
+
+.auth-footer {
+	.legal {
+		font-size: 0.75rem;
+		a {
+			color: $theme-text-color-light;
+	    }
+	}
+}
+
+
